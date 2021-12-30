@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <!-- styling using bootstrap ans CSS -->
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- fonts using google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Merriweather:wght@300&family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Sacramento&family=Ubuntu:wght@300;400&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- history box -->
+
+  <!-- buttons -->
+  <div class="Divs container-fluid">
+    <div id="title" class="title">
+      <h1>Calculator</h1>
+    </div>
+    <div class="input">
+      <input class="form-control form-control-lg textArea text" id="display" type="text" placeholder="0">
+    </div>
+
+
+    <div class="row one">
+      <input class="btn btn-primary btn-lg num his col-sm-2 col-lg-3" type="button" value="(" />
+      <input type="button" class="btn btn-primary btn-lg num his col-sm-2 col-lg-3" value=")">
+      <button type="button" class="btn btn-primary btn-lg del his col-sm-2 col-lg-3" value="" name="del" placeholder="del">del</button>
+      <input type="button" class="btn btn-primary btn-lg clear col-sm-2 col-lg-3" value="AC">
+    </div>
+    <div class="row two">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="7">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="8">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="9">
+      <input type="button" class="btn btn-dark btn-lg  division num his col-sm-2 col-lg-3" value="/">
+    </div>
+    <div class="row three">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="4">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="5">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="6">
+      <input type="button" class="btn btn-dark btn-lg multiply num his col-sm-2 col-lg-3" value="*">
+    </div>
+    <div class="row four">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="1">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="2">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value="3">
+      <input type="button" class="btn btn-dark btn-lg subtract num his col-sm-2 col-lg-3" value="-">
+    </div>
+    <div class="row five">
+      <input type="button" class="btn btn-light btn-lg num his  col-sm-2 col-lg-3" value="0">
+      <input type="button" class="btn btn-light btn-lg num his col-sm-2 col-lg-3" value=".">
+      <input type="button" class="btn btn-light btn-lg  equal his col-sm-2 col-lg-3" value="=">
+      <input type="button" class="btn btn-dark btn-lg add num his col-sm-2 col-lg-3" value="+">
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-sm-12" >
+          <h2>History</h2>
+          <input id="history" type="text" class="form-control form-control-lg history1">
+      </div>
+    </div>
+
+  </div>
+  <footer><div class="footer">
+      <h6 class="feet">Copyright © Chinmay Raut 2021</h6>
+  </div></footer>
+
+
+
+<!-- external javascript and jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="styles/index.js" charset="utf-8"></script>
+</body>
+
+</html>
